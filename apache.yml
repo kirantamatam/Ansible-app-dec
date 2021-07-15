@@ -1,4 +1,4 @@
--hosts: 172.31.34.12
+-hosts: 172.31.44.86
  become: yes
  tasks:
    - name: install apache
