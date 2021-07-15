@@ -1,6 +1,6 @@
--hosts: 172.31.44.86
- become: yes
- tasks:
+- hosts: 172.31.44.86
+  become: yes
+  tasks:
    - name: install apache
      yum:
       name: httpd
