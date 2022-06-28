@@ -8,7 +8,7 @@ RUN apk add openjdk8-jre
 WORKDIR /opt
 
 # install tomcat
-ADD https://downloads.apache.org/tomcat/tomcat-8/v8.5.69/bin/apache-tomcat-8.5.69.tar.gz .
+ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.64/bin/apache-tomcat-9.0.64.tar.gz .
 
 # extract tar file
 RUN tar xf apache-tomcat-8.5.69.tar.gz
