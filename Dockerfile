@@ -17,7 +17,7 @@ RUN tar xf apache-tomcat-9.0.64.tar.gz
 RUN rm apache-tomcat-9.0.64.tar.gz
 
 # rename tomcat8 folder
-RUN mv  tomcat8apache-tomcat-9.0.64 tomcat9
+RUN mv apache-tomcat-9.0.64 tomcat9
 
 WORKDIR /opt/tomcat8/webapps/jaga
 
