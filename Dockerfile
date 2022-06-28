@@ -25,4 +25,4 @@ COPY index.html .
 
 EXPOSE 8080
 
-ENTRYPOINT [ "/opt/tomcat8/bin/catalina.sh","run" ]
+ENTRYPOINT [ "/opt/tomcat9/bin/catalina.sh","run" ]
